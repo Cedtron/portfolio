@@ -53,7 +53,7 @@ export default function Skills  () {
   <div class="row mb-5 justify-content-center">
     <div class="col-lg-6 text-center">
       <h2 class="section-title text-center mb-3">Skills</h2>
-      <p>Since beginning my journey as a freelance developer nearly 10 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.</p>
+      <p>Since beginning my journey as a freelance developer nearly 5 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.</p>
     </div>
   </div>
   <div class="row align-items-stretch ">
