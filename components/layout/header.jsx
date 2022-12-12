@@ -14,7 +14,7 @@ export default function Header  (){
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 	<meta name="author" content="Untree.co"/>
 	<link rel="shortcut icon" href="favicon.png"/>
-	<Script src="../../styles/typed.js"  strategy="beforeInteractive"/>
+
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap4" />
     <title>Cedo Developer</title>
