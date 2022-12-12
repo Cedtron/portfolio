@@ -62,13 +62,15 @@ export default function Slider () {
 					</div>
 				</div>
 				<div className="col-md-8">
+					
+
 				<Carousel responsive={responsive} focusOnSelect={true} infinite={true} autoPlay={true}>   
 					 <Image  width={500}
-      height={500} src="/images/s3.png" alt="Picture of the author" className="img-fluid active"  />
+      height={500} src="/images/s3.png" alt="Picture of the author" className="col-lg-12"  />
 					<Image  width={500}
-      height={500} src="/images/s1.png" alt="Picture of the author" className="img-fluid"  />
+      height={500} src="/images/s1.png" alt="Picture of the author" className="col-lg-12"  />
 					<Image  width={500}
-      height={500} src="/images/s2.png" alt="Picture of the author" className="img-fluid"   />
+      height={500} src="/images/s2.png" alt="Picture of the author" className="col-lg-12"   />
 			
 					</Carousel>
 				</div>
