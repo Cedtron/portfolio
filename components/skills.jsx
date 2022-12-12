@@ -76,7 +76,7 @@ export default function Skills  () {
 
       <div class="feature-1 d-md-flex">
         <div class="align-self-center cent">
-          <span class="display-4 text-primary">
+          <span class="display-4 pu">
             <SiPhp />
           </span>
           <h3>PHP</h3>
@@ -87,7 +87,7 @@ export default function Skills  () {
 
       <div class="feature-1 d-md-flex">
         <div class="align-self-center cent">
-          <span class="display-4 text-primary">
+          <span class="display-4 re">
             <SiReact />
           </span>
           <h3>React</h3>
@@ -99,7 +99,7 @@ export default function Skills  () {
 
       <div class="feature-1 d-md-flex">
         <div class="align-self-center cent">
-          <span class="display-4 text-primary">
+          <span class="display-4 bl">
           <SiNextdotjs/>
           </span>
           <h3>Next Js</h3>
@@ -110,7 +110,7 @@ export default function Skills  () {
 
       <div class="feature-1 d-md-flex">
         <div class="align-self-center cent">
-          <span class="display-4 text-primary">
+          <span class="display-4 gr">
             <FaNodeJs />
           </span>
           <h3>Node JS</h3>
@@ -121,7 +121,7 @@ export default function Skills  () {
 
       <div class="feature-1 d-md-flex">
         <div class="align-self-center cent">
-          <span class="display-4 text-primary">
+          <span class="display-4 bu">
             <SiAdobephotoshop />
           </span>
           <h3>Photoshop</h3>
@@ -132,7 +132,7 @@ export default function Skills  () {
 
       <div class="feature-1 d-md-flex">
         <div class="align-self-center cent">
-          <span class="display-4 text-primary">
+          <span class="display-4 or">
             <SiAdobeillustrator />
           </span>
           <h3>Illustrato</h3>
