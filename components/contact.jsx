@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
 import { BsPhone,BsWhatsapp,BsLinkedin} from "react-icons/bs";
-import { HiOutlineMail} from "react-icons/Hi";
+import { HiOutlineMail} from "react-icons/hi";
 
 export default function Contact () {
     return (
