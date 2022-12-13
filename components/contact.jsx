@@ -52,7 +52,7 @@ export default function Contact () {
   
             <div class="feature-1 d-md-flex">
               <div class="align-self-center">
-                <span class="display-4 text-primary"><BsWhatsapp/></span>
+                <span class="display-4 gr"><BsWhatsapp/></span>
                 <h3>Whats app</h3>
                 <p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
               </div>
@@ -60,7 +60,7 @@ export default function Contact () {
   
             <div class="feature-1 d-md-flex">
               <div class="align-self-center">
-                <span class="display-4 text-primary"><BsLinkedin/></span>
+                <span class="display-4 bu"><BsLinkedin/></span>
                 <h3>Linked in</h3>
                 <p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
               </div>

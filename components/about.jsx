@@ -3,9 +3,7 @@ import React from 'react';
 import Image from 'next/image'
 
 export default function About ()  {
-  const myLoader = ({ src, width, quality }) => {
-    return `https://example.com/${src}?w=${width}&q=${quality || 75}`
-  }
+  
     return (
      
         <div>
