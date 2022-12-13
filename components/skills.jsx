@@ -63,8 +63,8 @@ export default function Skills  () {
     <div class="col-12 col-md-12 col-lg-12 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
   
     <Carousel responsive={responsive} focusOnSelect={true} infinite={true} autoPlay={true}>    
-      <div class="feature-1 d-md-flex">
-        <div class="align-self-center cent">
+      <div class="col-6 neu">
+        <div class="align-self-center cent ">
           <span class="display-4 text-primary">
             <SiHtml5 />
           </span>
@@ -74,8 +74,8 @@ export default function Skills  () {
         </div>
       </div>
 
-      <div class="feature-1 d-md-flex">
-        <div class="align-self-center cent">
+      <div class="col-6 neu">
+        <div class="align-self-center cent ">
           <span class="display-4 pu">
             <SiPhp />
           </span>
@@ -85,8 +85,8 @@ export default function Skills  () {
         </div>
       </div>
 
-      <div class="feature-1 d-md-flex">
-        <div class="align-self-center cent">
+      <div class="col-6 neu">
+        <div class="align-self-center cent ">
           <span class="display-4 re">
             <SiReact />
           </span>
@@ -97,8 +97,8 @@ export default function Skills  () {
       </div>
 
 
-      <div class="feature-1 d-md-flex">
-        <div class="align-self-center cent">
+      <div class="col-6 neu">
+        <div class="align-self-center cent ">
           <span class="display-4 bl">
           <SiNextdotjs/>
           </span>
@@ -108,8 +108,8 @@ export default function Skills  () {
         </div>
       </div>
 
-      <div class="feature-1 d-md-flex">
-        <div class="align-self-center cent">
+      <div class="col-6 neu">
+        <div class="align-self-center cent ">
           <span class="display-4 gr">
             <FaNodeJs />
           </span>
@@ -119,8 +119,8 @@ export default function Skills  () {
         </div>
       </div>
 
-      <div class="feature-1 d-md-flex">
-        <div class="align-self-center cent">
+      <div class="col-6 neu">
+        <div class="align-self-center cent ">
           <span class="display-4 bu">
             <SiAdobephotoshop />
           </span>
@@ -130,8 +130,8 @@ export default function Skills  () {
         </div>
       </div>
 
-      <div class="feature-1 d-md-flex">
-        <div class="align-self-center cent">
+      <div class="col-6 neu">
+        <div class="align-self-center cent ">
           <span class="display-4 or">
             <SiAdobeillustrator />
           </span>

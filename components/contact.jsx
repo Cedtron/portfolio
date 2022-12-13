@@ -6,7 +6,7 @@ import { HiOutlineMail} from "react-icons/hi";
 export default function Contact () {
     return (
       <div>
-      <div class="untree_co-section neu">
+      <div class="untree_co-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-6 text-center">
@@ -15,7 +15,7 @@ export default function Contact () {
          </div>
         </div>
         <div class="row align-items-stretch">
-          <div class="col-lg-4 order-lg-1">
+          <div class="col-lg-4 order-lg-1 ">
             
          
             <Image
@@ -28,7 +28,7 @@ export default function Contact () {
     
           </div>
   
-          <div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
+          <div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1  neu" >
   
             <div class="feature-1 d-md-flex">
               <div class="align-self-center">
@@ -48,7 +48,7 @@ export default function Contact () {
   
           </div>
   
-          <div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3" >
+          <div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3 " >
   
             <div class="feature-1 d-md-flex">
               <div class="align-self-center">
