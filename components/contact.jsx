@@ -6,7 +6,7 @@ import { HiOutlineMail} from "react-icons/hi";
 export default function Contact () {
     return (
       <div>
-      <div class="untree_co-section bg">
+      <div class="untree_co-section neu">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-6 text-center">
