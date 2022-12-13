@@ -28,8 +28,8 @@ Love the Web and the work we do.I work closely with my clients to deliver the be
         <h3>Education and skill set</h3>
          <ul class="list-unstyled two-col clearfix">
             <li>Certificate in Computer Science</li>
-            <li>Worked at Climax microfinace as IT manager</li>
-            <li>MFI as implimentnal engier</li>
+            <li>Worked at Climaxx Microfinance as IT manager</li>
+            <li>MFI as implementation engineer</li>
             
           </ul>
         </div>
