@@ -1,7 +1,8 @@
 body {
-  font-family: "Inter", sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 1.5;
-  background: #ffffff;
+  background: #4d4242;
+  color:whitesmoke;
   overflow-x: hidden;
   font-size: 14px; }
   body:before {
@@ -569,11 +570,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .burger.active:before, .burger.active:after {
   top: 40%; }
 
-.neu{  border-radius: 25px;
-  background: #e0e0e0;
-  box-shadow:  16px 16px 39px #bcbcbc,
-               -16px -16px 39px #ffffff;
-              padding: 1em;}
+.neu{  border-radius: 45px;
+  background: #4d4242;
+  box-shadow:  7px 7px 14px #2d2626,
+               -7px -7px 14px #6d5e5e;}
 
 .burger:focus {  
   outline: none; }

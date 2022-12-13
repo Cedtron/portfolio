@@ -13,19 +13,19 @@ export default function Slider () {
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 3000 },
+          breakpoint: { max: 8000, min: 3000 },
           items: 5
         },
         desktop: {
-          breakpoint: { max: 3000, min: 1024 },
+          breakpoint: { max: 5000, min: 1024 },
           items: 3
         },
         tablet: {
-          breakpoint: { max: 1024, min: 464 },
+          breakpoint: { max: 5024, min: 464 },
           items: 2
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
+          breakpoint: { max: 4640, min: 0 },
           items: 1
         }
       };
@@ -64,7 +64,7 @@ export default function Slider () {
 				<div className="col-md-8">
 					
 
-				<Carousel responsive={responsive} focusOnSelect={true} infinite={true} autoPlay={true}>   
+				<Carousel responsive={responsive} arrows={false} focusOnSelect={true} infinite={true} autoPlay={true}>   
 					 <Image  width={500}
       height={500} src="/images/s3.png" alt="Picture of the author" className="col-lg-12"  />
 					<Image  width={500}

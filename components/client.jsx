@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
+import Link from 'next/link'
 import Carousel from 'react-multi-carousel';
 
 export default function Client  () {
@@ -58,7 +59,7 @@ export default function Client  () {
       width={200}
       height={100}
     />
-          <h3>Anfield Safari</h3>
+          <h3><Link href="https://anfieldsafaris.com/">Anfield Safari</Link></h3>
        
         </div>
       </div>
@@ -72,7 +73,7 @@ export default function Client  () {
       width={200}
       height={100}
     />
-          <h3>Seagate Freight Services</h3>
+          <h3><Link href="http://seagatefreightservices.com/">Seagate Freight Services</Link></h3>
        
         </div>
       </div>
@@ -87,7 +88,7 @@ export default function Client  () {
       width={200}
       height={100}
     />
-          <h3>GateWay Minerals</h3>
+          <h3><Link href="https://anfieldsafaris.com/">GateWay Minerals</Link></h3>
        
         </div>
       </div> */}
@@ -101,7 +102,7 @@ export default function Client  () {
       width={200}
       height={100}
     />
-          <h3>White Sands Safari</h3>
+          <h3><Link href="https://whitesandssafaris.com/">White Sands Safari</Link></h3>
        
         </div>
       </div>
@@ -115,7 +116,7 @@ export default function Client  () {
       width={200}
       height={100}
     />
-          <h3>Gateway Minerals</h3>
+          <h3><Link href="http://gatewaymineral.com/">Gateway Minerals</Link></h3>
        
         </div>
       </div>
@@ -129,7 +130,7 @@ export default function Client  () {
       width={200}
       height={100}
     />
-          <h3>Claver Apartments</h3>
+          <h3><Link href="http://www.claverapartment.com">Claver Apartments</Link></h3>
        
         </div>
       </div>
@@ -144,7 +145,7 @@ export default function Client  () {
       width={200}
       height={100}
     />
-          <h3>Adzakspiritual</h3>
+          <h3><Link href="http://adzakspiritual.com/">Adzakspiritual</Link></h3>
        
         </div>
       </div>
