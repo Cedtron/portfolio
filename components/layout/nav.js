@@ -5,6 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
+import Link from 'next/link'
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
@@ -12,9 +13,10 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import Image from 'next/image'
 
-const pages = ['Home', 'About', 'Services','Skills','Contact'];
-const settings = ['Whats app', 'Call'];
+const pages = [<Link href="/">Home</Link>, <Link href="#about">About</Link>, <Link href="#service">Services</Link>,<Link href="#skills">Skills</Link>,<Link href="#contact">Contact</Link>];
+const settings = [<Link href="https://wa.me/256705465643">WhatsApp</Link>, <Link href="tel:256705465643">Call</Link>];
 
 export default function Navs() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -39,7 +41,8 @@ export default function Navs() {
     <AppBar position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+        <Image  width={20}
+      height={20} src="/images/logo1.png" alt="Picture of the author" className="logo"/> 
           <Typography
             variant="h6"
             noWrap
@@ -94,7 +97,7 @@ export default function Navs() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+        
           <Typography
             variant="h5"
             noWrap

@@ -5,7 +5,7 @@ body {
   color:whitesmoke;
   overflow-x: hidden;
   font-size: 14px; padding-right:0px !important;}
-
+*{font-family: Arial, Helvetica, sans-serif !important;}
   body:before {
     content: "";
     position: fixed;
@@ -56,33 +56,37 @@ body {
 .ye{color:#f7f714;}
 .re{color: #7cc5d9;}
 .pu{color:#8993be;}
+.wh{color:#ffffff;}
 .bl{color:#000;}
 .or{color: #f8a829;}
 
-
-
+.pad{padding:1.5em;}
+.logo{width:50px;height: 50px;}
 .bg-primary {
-  background-color: #e03f42 !important; color:#ffffff;}
+  background-color: #ffffff !important; color:#000000;}
 
   .bg-p2 {
     background-color: #3f64e0 !important; color:#ffffff;}
     .bg-p3 {
-      background-color: #e03fe0 !important; color:#ffffff;}
+      background-color: #af1eaf !important; color:#ffffff;}
       .bg-p4 {
-        background-color: #44e03f !important; color:#ffffff;}
+        background-color: #28b623 !important; color:#ffffff;}
         .bg-p5 {
           background-color: #db981c !important; color:#ffffff;}
 
 .text-black {
   color: #000000 !important; }
-
+  .MuiButtonBase-root a{color: #ffffff;}
+  .MuiButtonBase-root a:hover{font-weight: bolder;}
+  .MuiToolbar-root a:hover{color: #ffffff;}
+  .MuiMenuItem-root a{color: #0e0d0d;}
 a {
-  color: #ff070b;
+  color: #111111;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease; }
   a:hover {
-    color: #ff070b;
+    color: #111111;
     text-decoration: none; }
 
 ::-moz-selection {
@@ -595,17 +599,19 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .hero {
   padding: 7rem 0 10rem 0;
-  background-image: url('../public/images/bg.png');
+  background-image: url('../public/images/bgs1.png');
   background-repeat: no-repeat; background-size: cover; 
-  margin-bottom: 100px; }
+  background-attachment: fixed;
+  background-position: center;
+  margin-bottom: 20px; }
   .hero.hero-inner {
     padding: 9rem 0 7rem 0;
     margin-bottom: auto;
-    background-image: url('../public/images/bg2.png');
+    background-image: url('../public/images/bgs.png');
     background-repeat: no-repeat; background-size: cover;  }
  .cent{text-align: center;}
     .hero h1 {
-    color: #0c0c0c;
+    color: whitesmoke;
     font-size: 60px; }
     @media (max-width: 991.98px) {
       .hero h1 {

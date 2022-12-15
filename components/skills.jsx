@@ -10,11 +10,11 @@ export default function Skills  () {
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 3000 },
+          breakpoint: { max: 3000, min: 3000 },
           items: 5
         },
         desktop: {
-          breakpoint: { max: 3000, min: 1024 },
+          breakpoint: { max: 2000, min: 1024 },
           items: 3
         },
         tablet: {
@@ -48,24 +48,24 @@ export default function Skills  () {
 
       
 <div>
-<div class="untree_co-section">
-<div class="container">
-  <div class="row mb-5 justify-content-center">
-    <div class="col-lg-6 text-center">
-      <h2 class="section-title text-center mb-3">Skills</h2>
+<div className="untree_co-section" id="skill">
+<div className="container">
+  <div className="row mb-5 justify-content-center">
+    <div className="col-lg-6 text-center">
+      <h2 className="section-title text-center mb-3">Skills</h2>
       <p>Since beginning my journey as a freelance developer nearly 5 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.</p>
     </div>
   </div>
-  <div class="row align-items-stretch neu">
-  {/* <div class="owl-single dots-absolute owl-carousel"> */}
+  <div className="row align-items-stretch neu pad">
+  {/* <div className="owl-single dots-absolute owl-carousel"> */}
     
 
-    <div class="col-12 col-md-12 col-lg-12 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
+    <div className="col-12 col-md-12 col-lg-12 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
   
     <Carousel responsive={responsive} focusOnSelect={true} infinite={true} autoPlay={true}>    
-      <div class="col-6">
-        <div class="align-self-center cent ">
-          <span class="display-4 text-primary">
+      <div className="col-6">
+        <div className="align-self-center cent ">
+          <span className="display-4 text-primary">
             <SiHtml5 />
           </span>
           <h3>HTML</h3>
@@ -74,9 +74,9 @@ export default function Skills  () {
         </div>
       </div>
 
-      <div class="col-6">
-        <div class="align-self-center cent ">
-          <span class="display-4 pu">
+      <div className="col-6">
+        <div className="align-self-center cent ">
+          <span className="display-4 pu">
             <SiPhp />
           </span>
           <h3>PHP</h3>
@@ -85,9 +85,9 @@ export default function Skills  () {
         </div>
       </div>
 
-      <div class="col-6">
-        <div class="align-self-center cent ">
-          <span class="display-4 re">
+      <div className="col-6">
+        <div className="align-self-center cent ">
+          <span className="display-4 re">
             <SiReact />
           </span>
           <h3>React</h3>
@@ -97,9 +97,9 @@ export default function Skills  () {
       </div>
 
 
-      <div class="col-6">
-        <div class="align-self-center cent ">
-          <span class="display-4 bl">
+      <div className="col-6">
+        <div className="align-self-center cent ">
+          <span className="display-4 wh">
           <SiNextdotjs/>
           </span>
           <h3>Next Js</h3>
@@ -108,9 +108,9 @@ export default function Skills  () {
         </div>
       </div>
 
-      <div class="col-6">
-        <div class="align-self-center cent ">
-          <span class="display-4 gr">
+      <div className="col-6">
+        <div className="align-self-center cent ">
+          <span className="display-4 gr">
             <FaNodeJs />
           </span>
           <h3>Node JS</h3>
@@ -119,9 +119,9 @@ export default function Skills  () {
         </div>
       </div>
 
-      <div class="col-6">
-        <div class="align-self-center cent ">
-          <span class="display-4 bu">
+      <div className="col-6">
+        <div className="align-self-center cent ">
+          <span className="display-4 bu">
             <SiAdobephotoshop />
           </span>
           <h3>Photoshop</h3>
@@ -130,12 +130,12 @@ export default function Skills  () {
         </div>
       </div>
 
-      <div class="col-6">
-        <div class="align-self-center cent ">
-          <span class="display-4 or">
+      <div className="col-6">
+        <div className="align-self-center cent ">
+          <span className="display-4 or">
             <SiAdobeillustrator />
           </span>
-          <h3>Illustrato</h3>
+          <h3>Illustrator</h3>
           90%
           <BorderLinearProgress variant="determinate" value={90} />
         </div>

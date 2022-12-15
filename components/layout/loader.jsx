@@ -21,7 +21,7 @@ $('.loader').remove();
     return (
         <div>
 
-<div class="loader">
+<div className="loader">
 <Circles
   height="80"
   width="80"

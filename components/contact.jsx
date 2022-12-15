@@ -1,77 +1,89 @@
 import React from 'react';
 import Image from 'next/image'
+import Button from '@mui/material/Button';
 import { BsPhone,BsWhatsapp,BsLinkedin} from "react-icons/bs";
 import { HiOutlineMail} from "react-icons/hi";
 
 export default function Contact () {
     return (
       <div>
-      <div class="untree_co-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2 class="section-title text-center mb-3">Contact Me</h2>
-            <p>I’m interested in freelance opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the link below.</p>
-         </div>
-        </div>
-        <div class="row align-items-stretch">
-          <div class="col-lg-4 order-lg-1 ">
-            
+   <div className="untree_co-section" id="contact">
+    <div className="container">
+      <div className="row">
+     
+        <div className="col-lg-5">
          
-            <Image
+        <Image
       // loader={myLoader}
       src="/images/pic1.png"
       alt="Picture of the author"
       width={500}
       height={500}
-    />
-    
-          </div>
-  
-          <div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1  neu" >
-  
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="display-4 text-primary"><BsPhone/></span>
-                <h3>Phone</h3>
-                <p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
-            </div>
-  
-            <div class="feature-1 ">
-              <div class="align-self-center">
-                <span class="display-4 text-primary"><HiOutlineMail/></span>
-                <h3>Email</h3>
-                <p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
-            </div>
-  
-          </div>
-  
-          <div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3 " >
-  
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="display-4 gr"><BsWhatsapp/></span>
-                <h3>Whats app</h3>
-                <p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
-            </div>
-  
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="display-4 bu"><BsLinkedin/></span>
-                <h3>Linked in</h3>
-                <p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
-            </div>
-  
-          </div>
-  
+    />  
+        </div>
+        <div className="col-lg-7 pl-lg-5 ml-auto neu pad">
+          <h2 className="section-title mb-4">Contant me</h2>
+          <div className="row">
+
+<div className="col-6">
+  <div className="align-self-center">
+    <span className="display-4 wh"><BsPhone/></span>
+    <h3>Phone</h3>
+   <Button variant="contained" href="tel:256705465643">
+  Call
+</Button>
+  </div>
+</div>
+
+<div className="col-6">
+  <div className="align-self-center">
+    <span className="display-4 text-primary"><HiOutlineMail/></span>
+    <h3>Email</h3>
+   <Button variant="contained" href="mailto:cedricallan16@gmail.com">
+  Mail
+</Button>
+  </div>
+</div>
+
+
+<div className="col-6">
+  <div className="align-self-center">
+    <span className="display-4 gr"><BsWhatsapp/></span>
+    <h3>Whats app</h3>
+   <Button variant="contained" href="https://wa.me/256705465643">
+  Chat
+</Button>
+  </div>
+</div>
+
+<div className="col-6">
+  <div className="align-self-center">
+    <span className="display-4 bu"><BsLinkedin/></span>
+    <h3>Linked in</h3>
+   <Button variant="contained" href="http://www.linkedin.com/in/cedric-allan-38817a221">
+  Chat
+</Button>
+  </div>
+</div>
+
+
+</div>
         </div>
       </div>
     </div>
+  </div>
+
+
+
           </div>
+
+
+
+
+
+
+
+
     );
 }
 

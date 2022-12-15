@@ -9,11 +9,15 @@ import Loader from './loader'
 
 
 export default function Layout ({children}) {
+    
+    
+
     return (
         <div>
             <Header/>
       <Loader />
             <Navs/>
+          
 {children}
             <Footer/>
         
