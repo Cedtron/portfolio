@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Image from 'next/image'
 
-const pages = [<Link href="/">Home</Link>, <Link href="#about">About</Link>, <Link href="#service">Services</Link>,<Link href="#skills">Skills</Link>,<Link href="#contact">Contact</Link>];
+const pages = [<Link href="/">Home</Link>, <Link href="/#about">About</Link>, <Link href="/#service">Services</Link>,<Link href="/#skills">Skills</Link>,<Link href="/#contact">Contact</Link>];
 const settings = [<Link href="https://wa.me/256705465643">WhatsApp</Link>, <Link href="tel:256705465643">Call</Link>];
 
 export default function Navs() {
