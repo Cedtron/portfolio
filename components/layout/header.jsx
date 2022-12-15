@@ -12,11 +12,11 @@ export default function Header  (){
             <Head>
             <meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<meta name="author" content="Untree.co"/>
+	<meta name="author" content="Cedric"/>
 	<link rel="shortcut icon" href="/image/favicon.png"/>
-
-	<meta name="description" content="" />
-	<meta name="keywords" content="bootstrap, bootstrap4" />
+    <meta name="theme-color" content="#3f64e0" />
+	<meta name="description" content="Hello! I’m Ssegirinya Cedric a self-taught & Web Developer & Digital Designer  with over five years work experience." />
+	<meta name="keywords" content="Ssegirinya Cedric, Cedo IT,Cedo developer,Cedo tech,Cedo ug" />
     <title>Cedo Developer</title>
             </Head>
 
