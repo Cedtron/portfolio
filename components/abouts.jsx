@@ -1,5 +1,6 @@
 import React from 'react';
 import AOS from  "aos"
+import Skills from '../components/skills'
 import Image from 'next/image'
 
 export default function About ()  {
@@ -37,7 +38,7 @@ Love the Web and the work we do.I work closely with my clients to deliver the be
     </div>
   </div>
 
-  
+  <Skills />
 
 
 

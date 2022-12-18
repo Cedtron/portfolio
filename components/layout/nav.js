@@ -15,8 +15,12 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Image from 'next/image'
 
-const pages = [<Link key={} href="/">Home</Link>, <Link key={} href="/#about">About</Link>, <Link key={} href="/#service">Services</Link>,<Link key={} href="/#skills">Skills</Link>,<Link key={} href="/#contact">Contact</Link>];
-const settings = [<Link key={} href="https://wa.me/256705465643">WhatsApp</Link>, <Link key={} href="tel:256705465643">Call</Link>];
+// const pages = [<Link key={} href="/">Home</Link>, <Link key={} href="/#about">About</Link>, <Link key={} href="/#service">Services</Link>,<Link key={} href="/#skills">Skills</Link>,<Link key={} href="/#contact">Contact</Link>];
+// const settings = [<Link key={} href="https://wa.me/256705465643">WhatsApp</Link>, <Link key={} href="tel:256705465643">Call</Link>];
+
+const pages = ['Home', 'About', 'Services','Skills','Contact'];
+const settings = ['WhatsApp', 'Call'];
+
 
 export default function Navs() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
