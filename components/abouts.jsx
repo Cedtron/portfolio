@@ -15,7 +15,7 @@ export default function About ()  {
         <div className="col-lg-5" >
         
             <Image  width={500}
-      height={500} src="/images/pics.jpg" alt="Free HTML Template by Untree.co" className="img-fluid rounded-20"/>
+      height={500} src="/images/pic1.png" alt="image" className="img-fluid rounded-20"/>
        
         </div>
         <div className="col-lg-7 pl-lg-5 ml-auto neu pad">

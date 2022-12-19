@@ -14,11 +14,10 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Image from 'next/image'
-
-// const pages = [<Link key={} href="/">Home</Link>, <Link key={} href="/#about">About</Link>, <Link key={} href="/#service">Services</Link>,<Link key={} href="/#skills">Skills</Link>,<Link key={} href="/#contact">Contact</Link>];
+const pages = [<Link  href="/">Home</Link>, <Link href="/about">About</Link>];
 // const settings = [<Link key={} href="https://wa.me/256705465643">WhatsApp</Link>, <Link key={} href="tel:256705465643">Call</Link>];
 
-const pages = ['Home', 'About', 'Services','Skills','Contact'];
+// const pages = ['Home', 'About'];
 const settings = ['WhatsApp', 'Call'];
 
 
@@ -42,7 +41,7 @@ export default function Navs() {
   };
 
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" className="nav-glass">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
         <Image  width={20}

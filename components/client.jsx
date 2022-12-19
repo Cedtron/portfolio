@@ -35,11 +35,11 @@ export default function Client  () {
 
       
 <div>
-<div className="untree_co-section bg-primary" id="client">
+<div className="untree_co-section" id="client">
 <div className="container">
   <div className="row mb-5 justify-content-center">
     <div className="col-lg-6 text-center">
-      <h2 className="section-title text-center mb-3">Clients</h2>
+      <h2 className="section-title text-center mb-3">Projects</h2>
    
     </div>
   </div>
@@ -124,7 +124,7 @@ export default function Client  () {
         </div></Link>
       </div>
 
-      <div className="feature-1 d-md-flex">
+      {/* <div className="feature-1 d-md-flex">
       <Link href="http://www.claverapartment.com">
          <div className="align-self-center">
         <Image
@@ -137,7 +137,7 @@ export default function Client  () {
           <h3>Claver Apartments</h3>
        
         </div></Link>
-      </div>
+      </div> */}
       
 
       <div className="feature-1 d-md-flex">
