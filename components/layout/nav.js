@@ -12,12 +12,11 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+
 import Image from 'next/image'
-const pages = [<Link  href="/">Home</Link>, <Link href="/about">About</Link>];
+const pages = [<Link href="/">Home</Link>, <Link href="/about">About</Link>];
 // const settings = [<Link key={} href="https://wa.me/256705465643">WhatsApp</Link>, <Link key={} href="tel:256705465643">Call</Link>];
 
-// const pages = ['Home', 'About'];
 const settings = ['WhatsApp', 'Call'];
 
 
@@ -61,7 +60,7 @@ export default function Navs() {
               textDecoration: 'none',
             }}
           >
-            CEDO
+            CEDRIC ALLAN
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -117,7 +116,7 @@ export default function Navs() {
               textDecoration: 'none',
             }}
           >
-            CEDO
+            CED ALLAN
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (

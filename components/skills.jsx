@@ -23,7 +23,7 @@ export default function Skills  () {
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
-          items: 1
+          items: 2
         }
       };
 
@@ -62,81 +62,74 @@ export default function Skills  () {
     <div className="col-12 col-md-12 col-lg-12 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
   
     <Carousel responsive={responsive} focusOnSelect={true} infinite={true} autoPlay={true}>    
-      <div className="col-6">
+      <div className="col-6 ">
         <div className="align-self-center cent ">
           <span className="display-4 text-primary">
             <SiHtml5 />
           </span>
-          <h3>HTML</h3>
-          100%
-          <BorderLinearProgress variant="determinate" value={100} />
+          <h4>HTML</h4>
+         
         </div>
       </div>
 
-      <div className="col-6">
+      <div className="col-6 ">
         <div className="align-self-center cent ">
           <span className="display-4 pu">
             <SiPhp />
           </span>
-          <h3>PHP</h3>
-          70%
-          <BorderLinearProgress variant="determinate" value={70} />
+          <h4>PHP</h4>
+      
         </div>
       </div>
 
-      <div className="col-6">
+      <div className="col-6 ">
         <div className="align-self-center cent ">
           <span className="display-4 re">
             <SiReact />
           </span>
-          <h3>React</h3>
-          60%
-          <BorderLinearProgress variant="determinate" value={60} />
+          <h4>React</h4>
+  
         </div>
       </div>
 
 
-      <div className="col-6">
+      <div className="col-6 ">
         <div className="align-self-center cent ">
           <span className="display-4 wh">
           <SiNextdotjs/>
           </span>
-          <h3>Next Js</h3>
-          50%
-          <BorderLinearProgress variant="determinate" value={50} />
+          <h4>Next Js</h4>
+    
         </div>
       </div>
 
-      <div className="col-6">
+      <div className="col-6 ">
         <div className="align-self-center cent ">
           <span className="display-4 gr">
             <FaNodeJs />
           </span>
-          <h3>Node JS</h3>
-          60%
-          <BorderLinearProgress variant="determinate" value={60} />
+          <h4>Node JS</h4>
+
         </div>
       </div>
 
-      <div className="col-6">
+      <div className="col-6 ">
         <div className="align-self-center cent ">
           <span className="display-4 bu">
             <SiAdobephotoshop />
           </span>
-          <h3>Photoshop</h3>
-          70%
-          <BorderLinearProgress variant="determinate" value={70} />
+          <h4>Photoshop</h4>
+
         </div>
       </div>
 
-      <div className="col-6">
+      <div className="col-6 ">
         <div className="align-self-center cent ">
           <span className="display-4 or">
             <SiAdobeillustrator />
           </span>
-          <h3>Illustrator</h3>
-          90%
-          <BorderLinearProgress variant="determinate" value={90} />
+          <h4>Illustrator</h4>
+
         </div>
       </div>
 

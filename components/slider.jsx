@@ -62,6 +62,7 @@ export default function Slider () {
 				<div className="col-md-4">
 					<div className="intro-wrap">
 						<h1 className="mb-5"><span className="d-block">I am</span> <span className="typed-words"></span></h1>
+						<h4>You can use the below links to contact me</h4>
 <ul className="slider-list">
 	<li><Link href="http://www.linkedin.com/in/cedric-allan-38817a221">  <span className="display-4 bu"><BsLinkedin/></span></Link> </li>
 	<li><Link href="mailto:cedricallan16@gmail.com"> <span className="display-4 text-primary"><HiOutlineMail/></span></Link></li>
