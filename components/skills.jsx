@@ -15,7 +15,7 @@ export default function Skills  () {
         },
         desktop: {
           breakpoint: { max: 2000, min: 1024 },
-          items: 3
+          items: 4
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
@@ -77,7 +77,7 @@ export default function Skills  () {
           <span className="display-4 pu">
             <SiPhp />
           </span>
-          <h4>PHP</h4>
+          <h4>JQuery</h4>
       
         </div>
       </div>
@@ -118,7 +118,7 @@ export default function Skills  () {
           <span className="display-4 bu">
             <SiAdobephotoshop />
           </span>
-          <h4>Photoshop</h4>
+          <h4>MUI</h4>
 
         </div>
       </div>
@@ -128,7 +128,7 @@ export default function Skills  () {
           <span className="display-4 or">
             <SiAdobeillustrator />
           </span>
-          <h4>Illustrator</h4>
+          <h4>Bootstrap</h4>
 
         </div>
       </div>
