@@ -1,10 +1,10 @@
 import React from 'react';
-import { SiHtml5 ,SiPhp,SiReact,SiNextdotjs,SiAdobephotoshop,SiAdobeillustrator} from "react-icons/si";
+import { SiHtml5 ,SiBootstrap,SiReact,SiNextdotjs,SiJquery,SiAdobeillustrator} from "react-icons/si";
 import { FaNodeJs} from "react-icons/fa";
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
 import { styled } from '@mui/material/styles';
 import Carousel from 'react-multi-carousel';
-
+import Image from 'next/image'
 export default function Skills  () {
 
     const responsive = {
@@ -75,9 +75,9 @@ export default function Skills  () {
       <div className="col-6 ">
         <div className="align-self-center cent ">
           <span className="display-4 pu">
-            <SiPhp />
+            <SiBootstrap />
           </span>
-          <h4>JQuery</h4>
+          <h4>Bootstrap</h4>
       
         </div>
       </div>
@@ -116,9 +116,9 @@ export default function Skills  () {
       <div className="col-6 ">
         <div className="align-self-center cent ">
           <span className="display-4 bu">
-            <SiAdobephotoshop />
+            <SiJquery />
           </span>
-          <h4>MUI</h4>
+          <h4>Jquery</h4>
 
         </div>
       </div>
@@ -126,9 +126,11 @@ export default function Skills  () {
       <div className="col-6 ">
         <div className="align-self-center cent ">
           <span className="display-4 or">
-            <SiAdobeillustrator />
+          <Image  width={500}
+      height={55} src="/images/mui.png" alt="Picture of the author" className="col-lg-10 rad"   />
+		
           </span>
-          <h4>Bootstrap</h4>
+          <h4>MUI</h4>
 
         </div>
       </div>

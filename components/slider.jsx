@@ -3,16 +3,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Carousel from 'react-multi-carousel';
 import Typed from 'typed.js';
-import $ from "jquery"
+// import $ from "jquery"
 import Client from "./client";
 import { BsGithub,BsLinkedin} from "react-icons/bs";
 import { HiOutlineMail} from "react-icons/hi";
 
 export default function Slider () {
-
-	// const myLoader = ({ src, width, quality }) => {
-	// 	return `https://example.com/${src}?w=${width}&q=${quality || 75}`
-	//   }
 
     const responsive = {
         superLargeDesktop: {
@@ -35,33 +31,33 @@ export default function Slider () {
       };
 
 
-	//   var typed = new Typed('.typed-words', {
-	// 	strings: ["Cedric.","Web Developer."," Graphic Desginer."],
-	// 	typeSpeed: 80,
-	// 	backSpeed: 80,
-	// 	backDelay: 4000,
-	// 	startDelay: 1000,
-	// 	loop: true,
-	// 	showCursor: false,
-	// 	preStringTyped: (arrayPos, self) => {
-	// 		arrayPos++;
-	// 		console.log(arrayPos);
-	// 		$('.slides img').removeClass('active');
-	// 		$('.slides img[data-id="'+arrayPos+'"]').addClass('active');
-	// 	}
+	
 
-	// });
-	  
+	
+	useEffect(() => {
+  var typed = new Typed('.typed-words', {
+		strings: ["Ssegirinya Cedric.","Web Developer."],
+		typeSpeed: 80,
+		backSpeed: 80,
+		backDelay: 4000,
+		startDelay: 1000,
+		loop: true,
+		showCursor: false,
+
+		})
+
+	
+	  }, [])
 
     return (
         <div>
 
-<div className="hero">
+<div className="hero" id="lazy-image">
 		<div className="container">
 			<div className="row ">
 				<div className="col-md-4">
 					<div className="intro-wrap">
-						<h1 className="mb-5"><span className="d-block">I am</span> <span className="typed-words"></span></h1>
+						<h1 className="mb-5"><span className="d-block">I am</span> <span className="typed-words" ></span></h1>
 						<h4>You can use the below links to contact me</h4>
 <ul className="slider-list">
 	<li><Link href="http://www.linkedin.com/in/cedric-allan-38817a221">  <span className="display-4 bu"><BsLinkedin/></span></Link> </li>
@@ -76,11 +72,11 @@ export default function Slider () {
 
 				<Carousel responsive={responsive} arrows={false} focusOnSelect={true} infinite={true} autoPlay={true}>   
 					 <Image  width={500}
-      height={500} src="/images/s3.png" alt="Picture of the author" className="col-lg-12"  />
+      height={500} src="/images/s2.jpg" alt="Picture of the author" className="col-lg-10 rad"  />
 					<Image  width={500}
-      height={500} src="/images/s1.png" alt="Picture of the author" className="col-lg-12"  />
+      height={500} src="/images/s1.jpg" alt="Picture of the author" className="col-lg-10 rad"  />
 					<Image  width={500}
-      height={500} src="/images/s2.png" alt="Picture of the author" className="col-lg-12"   />
+      height={500} src="/images/s3.jpg" alt="Picture of the author" className="col-lg-10 rad"   />
 			
 					</Carousel>
 				</div>
