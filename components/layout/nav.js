@@ -15,9 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 
 import Image from 'next/image'
 const pages = [<Link href="/">Home</Link>, <Link href="/about">About</Link>];
-// const settings = [<Link key={} href="https://wa.me/256705465643">WhatsApp</Link>, <Link key={} href="tel:256705465643">Call</Link>];
-
-const settings = ['WhatsApp', 'Call'];
+ const settings = [<Link  href="https://wa.me/256705465643">WhatsApp</Link>, <Link  href="tel:256705465643">Call</Link>];
 
 
 export default function Navs() {
