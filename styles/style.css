@@ -36,13 +36,13 @@ body {
 	z-index: 9999;
 	background-color:#4d4242;
 }
-
+.tall{height: 1.5em;}
 .slider-list li{display:inline-block;padding-left: 1em;}
 .bu{color:#3f64e0;}
 .gr{color:#04953a;}
 .ye{color:#f7f714;}
 .re{color: #7cc5d9;}
-.pu{color:#8993be;}
+.pu{color:#ca43a2;}
 .wh{color:#ffffff;}
 .bl{color:#000;}
 .or{color: #f8a829;}
@@ -615,8 +615,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       position: relative; }
       .hero h1 .typed-words:before {
         position: absolute;
-        height: 7px;
-        background-color: #B1D0E0;
+    
+        
         bottom: 0;
         left: 0;
         right: 0;

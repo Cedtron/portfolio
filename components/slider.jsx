@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Carousel from 'react-multi-carousel';
 import Typed from 'typed.js';
-// import $ from "jquery"
+
 import Client from "./client";
 import { BsGithub,BsLinkedin} from "react-icons/bs";
 import { HiOutlineMail} from "react-icons/hi";
@@ -57,7 +57,8 @@ export default function Slider () {
 			<div className="row ">
 				<div className="col-md-4">
 					<div className="intro-wrap">
-						<h1 className="mb-5"><span className="d-block">I am</span> <span className="typed-words" ></span></h1>
+						<h1 className="mb-5"><span className="d-block">I am</span>
+						<div className="tall"><span className="typed-words" ></span></div></h1>
 						<h4>You can use the below links to contact me</h4>
 <ul className="slider-list">
 	<li><Link href="http://www.linkedin.com/in/cedric-allan-38817a221">  <span className="display-4 bu"><BsLinkedin/></span></Link> </li>
