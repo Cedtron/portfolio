@@ -43,15 +43,15 @@ export default function Client  () {
    
     </div>
   </div>
-  <div className="row align-items-stretch ">
+  <div className="row align-items-stretch " id="projects">
   {/* <div className="owl-single dots-absolute owl-carousel"> */}
     
 
-    <div className="col-12 col-md-12 col-lg-12 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
+    <div className="col-12 col-md-12 col-lg-12 feature-1-wrap d-md-flex flex-md-column order-lg-1 ">
   
     <Carousel responsive={responsive} focusOnSelect={true} infinite={true} autoPlay={true}>    
      
-      <div className="feature-1 d-md-flex">
+      <div className="feature-1 d-md-flex cent">
         <Link href="https://anfieldsafaris.com/"><div className="align-self-center">
         <Image
       // loader={myLoader}
@@ -65,7 +65,7 @@ export default function Client  () {
         </div></Link>
       </div>
 
-      <div className="feature-1 d-md-flex">
+      <div className="feature-1 d-md-flex cent">
       <Link href="http://seagatefreightservices.com/">
           <div className="align-self-center">
         <Image
@@ -81,7 +81,7 @@ export default function Client  () {
       </div>
 
 
-      {/* <div className="feature-1 d-md-flex">
+      {/* <div className="feature-1 d-md-flex cent">
         <div className="align-self-center">
         <Image
       // loader={myLoader}
@@ -95,7 +95,7 @@ export default function Client  () {
         </div>
       </div> */}
 
-      <div className="feature-1 d-md-flex">
+      <div className="feature-1 d-md-flex cent">
       <Link href="https://whitesandssafaris.com/">
          <div className="align-self-center">
         <Image
@@ -110,7 +110,7 @@ export default function Client  () {
         </div></Link>
       </div>
 
-      <div className="feature-1 d-md-flex">
+      <div className="feature-1 d-md-flex cent">
       <Link href="http://gatewaymineral.com/">
         <div className="align-self-center">
         <Image
@@ -124,7 +124,7 @@ export default function Client  () {
         </div></Link>
       </div>
 
-      {/* <div className="feature-1 d-md-flex">
+      {/* <div className="feature-1 d-md-flex cent">
       <Link href="http://www.claverapartment.com">
          <div className="align-self-center">
         <Image
@@ -140,7 +140,7 @@ export default function Client  () {
       </div> */}
       
 
-      <div className="feature-1 d-md-flex">
+      <div className="feature-1 d-md-flex cent">
       <Link href="http://adzakspiritual.com/">
         <div className="align-self-center">
         <Image

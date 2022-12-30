@@ -25,7 +25,7 @@ $('.loader').remove();
 <Circles
   height="80"
   width="80"
-  color="#3f64e0"
+  color="#dc3545"
   ariaLabel="circles-loading"
   wrapperStyle={{}}
   wrapperClass=""

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Carousel from 'react-multi-carousel';
 import Typed from 'typed.js';
-
+import Button from '@mui/material/Button';
 import Client from "./client";
 import { BsGithub,BsLinkedin} from "react-icons/bs";
 import { HiOutlineMail} from "react-icons/hi";
@@ -55,7 +55,7 @@ export default function Slider () {
 <div className="hero" id="lazy-image">
 		<div className="container">
 			<div className="row ">
-				<div className="col-md-4">
+				<div className="col-md-5">
 					<div className="intro-wrap">
 						<h1 className="mb-5"><span className="d-block">I am</span>
 						<div className="tall"><span className="typed-words" ></span></div></h1>
@@ -66,12 +66,17 @@ export default function Slider () {
 	<li><Link href="http://www.linkedin.com/in/cedric-allan-38817a221">  <span className="display-4 wh"><BsGithub/></span></Link> </li>
 
 </ul>
+
+	<Button variant="contained" className="muibtn" href="/images/resume.pdf">
+        Resume
+      </Button>
+	  
 					</div>
 				</div>
-				<div className="col-md-8">
+				<div className="col-md-5 cent">
 					
-
-				<Carousel responsive={responsive} arrows={false} focusOnSelect={true} infinite={true} autoPlay={true}>   
+			
+				{/* <Carousel responsive={responsive} arrows={false} focusOnSelect={true} infinite={true} autoPlay={true}>   
 					 <Image  width={500}
       height={500} src="/images/s2.jpg" alt="Picture of the author" className="col-lg-10 rad"  />
 					<Image  width={500}
@@ -79,7 +84,7 @@ export default function Slider () {
 					<Image  width={500}
       height={500} src="/images/s3.jpg" alt="Picture of the author" className="col-lg-10 rad"   />
 			
-					</Carousel>
+					</Carousel> */}
 				</div>
 			</div>
 		</div>

@@ -48,12 +48,17 @@ body {
 .bl{color:#000;}
 .or{color: #f8a829;}
 .nav-glass{
-  background: #3F64E082;
+  background: #dc354670;
  
   box-shadow: 0 4px 30px #0000001a;
   backdrop-filter: blur(6.4px);
   -webkit-backdrop-filter: blur(6.4px);
 }
+
+.muibtn{border-radius: 45px;
+  background: #dc3545;color:#f8f8f8;
+  box-shadow: 7px 7px 14px #2d2626, -7px -7px 14px #6d5e5e; }
+
 .rad { border-radius: 5em;}
 .pad{padding:1.5em;}
 .logo{width:50px;height: 50px;}
@@ -61,7 +66,7 @@ body {
   background-color: #ffffff !important; color:#000000;}
   
   .bg-p2 {
-    background-color:#da2d2f  !important; color:#ffffff;}
+    background-color:#dc3545 !important; color:#ffffff;}
     .bg-p3 {
       background-color: #af1eaf !important; color:#ffffff;}
       .bg-p4 {
@@ -93,12 +98,12 @@ a {
   color: #ffffff; }
 
 .text-primary {
-  color: #ff070b !important; }
+  color: #dc3545!important; }
 
 a.text-primary {
-  color: #ff070b !important; }
+  color: #dc3545!important; }
   a.text-primary:hover {
-    color: #ff070b !important; }
+    color: #dc3545!important; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-family: "Source Serif Pro", serif; }
@@ -126,7 +131,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     border: 2px solid #ffffff; }
     .btn.btn-outline-white:hover {
       background: #ffffff;
-      color: #ff070b !important; }
+      color: #dc3545!important; }
 
 .text-white-opacity {
   opacity: .7; }
@@ -306,7 +311,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
           transition: 0s all;
           color: #000000; }
         .site-nav .site-navigation .site-menu .has-children .dropdown .active a {
-          color: #ff070b !important; }
+          color: #dc3545!important; }
         .site-nav .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
           padding: 0;
@@ -527,9 +532,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
       color: #000000 !important; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-        color: #ff070b !important; }
+        color: #dc3545!important; }
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li.active a {
-      color: #ff070b !important; }
+      color: #dc3545!important; }
   .sticky-wrapper .shrink {
     padding-top: 0px !important;
     padding-bottom: 0px !important; }
@@ -1366,12 +1371,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .site-footer {
   font-size: 14px;
-  color: #777;
+  color: #eeeeee;
   line-height: 1.6; }
   .site-footer .inner {
     padding-top: 0px;
     padding-bottom: 20px;
-    background: #f8f9fa; }
+    background: #4d4242;
+    box-shadow: 7px 7px 14px #2d2626, -7px -7px 14px #6d5e5e; }
     .site-footer .inner.first {
       padding-top: 80px; }
   @media (max-width: 991.98px) {
