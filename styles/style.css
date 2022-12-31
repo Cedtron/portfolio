@@ -2,8 +2,8 @@
 body {
   /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
   line-height: 1.5;
-  background: #0a1929;
-  color:whitesmoke;
+  background: #0a1929 !important;
+  color:whitesmoke !important;
   overflow-x: hidden;
   font-size: 14px; padding-right:0px !important;}
 *{font-family: 'Poppins', serif !important;}
@@ -15,7 +15,7 @@ body {
     z-index: 99;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: #00000033;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: .3s all ease;
@@ -48,7 +48,7 @@ body {
 .bl{color:#000;}
 .or{color: #f8a829;}
 .nav-glass{
-  background: #0d80d891;
+  background: #0d80d891 !important;
  
   box-shadow: 0 4px 30px #0000001a;
   backdrop-filter: blur(6.4px);
