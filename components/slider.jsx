@@ -36,7 +36,7 @@ export default function Slider () {
 	
 	useEffect(() => {
   var typed = new Typed('.typed-words', {
-		strings: ["Ssegirinya Cedric.","Web Developer."],
+		strings: ["Cedo developer","Ssegirinya Cedric.","Web Developer."],
 		typeSpeed: 80,
 		backSpeed: 80,
 		backDelay: 4000,
@@ -61,9 +61,9 @@ export default function Slider () {
 						<div className="tall"><span className="typed-words" ></span></div></h1>
 						<h4>You can use the below links to contact me</h4>
 <ul className="slider-list">
-	<li><Link href="http://www.linkedin.com/in/cedric-allan-38817a221">  <span className="display-4 bu"><BsLinkedin/></span></Link> </li>
-	<li><Link href="mailto:cedricallan16@gmail.com"> <span className="display-4 text-primary"><HiOutlineMail/></span></Link></li>
-	<li><Link href="http://www.linkedin.com/in/cedric-allan-38817a221">  <span className="display-4 wh"><BsGithub/></span></Link> </li>
+	<li><Link href="www.linkedin.com/in/ssegirinya-cedric-38817a221">  <span className="display-4 bu"><BsLinkedin/></span></Link> </li>
+	<li><Link href="mailto:cedricallan16@gmail.com"> <span className="display-4 red"><HiOutlineMail/></span></Link></li>
+	<li><Link href="https://github.com/Cedtron">  <span className="display-4 wh"><BsGithub/></span></Link> </li>
 
 </ul>
 

@@ -55,7 +55,7 @@ export default function Client  () {
         <Link href="https://anfieldsafaris.com/"><div className="align-self-center">
         <Image
       // loader={myLoader}
-      src="/images/anfields.png"
+      src="/images/anfield.png"
       alt="Picture of the cedo"
       width={200}
       height={100}
@@ -100,7 +100,7 @@ export default function Client  () {
          <div className="align-self-center">
         <Image
       // loader={myLoader}
-      src="/images/white.jpeg"
+      src="/images/white.png"
       alt="Picture of the cedo"
       width={200}
       height={100}
@@ -145,7 +145,7 @@ export default function Client  () {
         <div className="align-self-center">
         <Image
       // loader={myLoader}
-      src="/images/spell.png"
+      src="/images/as.png"
       alt="Picture of the cedo"
       width={200}
       height={100}
