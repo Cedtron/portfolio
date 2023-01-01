@@ -64,7 +64,7 @@ export default function Skills  () {
     <Carousel responsive={responsive} focusOnSelect={true} infinite={true} autoPlay={true}>    
       <div className="col-6 ">
         <div className="align-self-center cent ">
-          <span className="display-4 text-primary">
+          <span className="display-4 re">
             <SiHtml5 />
           </span>
           <h4>HTML</h4>

@@ -55,7 +55,7 @@ export default function Client  () {
         <Link href="https://anfieldsafaris.com/"><div className="align-self-center">
         <Image
       // loader={myLoader}
-      src="/images/anfield.png"
+      src="/images/anfields.png"
       alt="Picture of the cedo"
       width={200}
       height={100}
