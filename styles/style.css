@@ -109,7 +109,7 @@ a.text-primary {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-family: "Source Serif Pro", serif; }
 
-	.bg{background-image: url('../public/images/bg2.png');background-repeat: no-repeat;
+	.bg{background-image: url('/images/bg2.png');background-repeat: no-repeat;
    background-position: center;}
 .btn {
   padding-top: 12px;
@@ -600,7 +600,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .hero {
   padding: 2rem 0 4rem 0;
-  background-image: url('../public/images/bg2.jpg') !important;
+  background-image: url('/images/bg2.jpg') !important;
   background-repeat: no-repeat; background-size: cover; 
   background-attachment: fixed;
   background-position: center;
@@ -642,7 +642,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     height: 608px;
     margin-bottom: -200px; }
     @media (max-width: 991.98px) {
-      .hero{background-image: url('../public/images/bg.jpg') !important;}
+      .hero{background-image: url('/images/bg.jpg') !important;}
       .hero .slides {
         left: 0; } }
     .hero .slides img {
