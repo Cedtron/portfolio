@@ -58,7 +58,7 @@ export default function Navs() {
               textDecoration: 'none',
             }}
           >
-            CEDRIC ALLAN
+            CEDO DEVELOPER
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -114,7 +114,7 @@ export default function Navs() {
               textDecoration: 'none',
             }}
           >
-            CED ALLAN
+            CEDO
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
