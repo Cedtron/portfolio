@@ -42,7 +42,7 @@ export default function Navs() {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
         <Image  width={20}
-      height={20} src="/images/logo1.png" alt="Picture of the author" className="logo"/> 
+      height={20} src="/images/cedo.png" alt="Picture of the author" className="logo"/> 
           <Typography
             variant="h6"
             noWrap
