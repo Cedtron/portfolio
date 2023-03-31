@@ -43,6 +43,7 @@ export default function Navs() {
         <Toolbar disableGutters>
         <Image  width={20}
       height={20} src="/images/cedo.png" alt="Picture of the author" className="logo"/> 
+      
           <Typography
             variant="h6"
             noWrap
@@ -58,6 +59,7 @@ export default function Navs() {
               textDecoration: 'none',
             }}
           >
+            
             CEDO DEVELOPER
           </Typography>
 
