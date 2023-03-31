@@ -16,7 +16,7 @@ export default function Header  (){
 	<link rel="shortcut icon" href="/image/favicon.png"/>
     <meta name="theme-color" content="#0A1929" />
 	<meta name="description" content="Hello! I’m Ssegirinya Cedric a self-taught & Web Developer & Digital Designer  with over five years work experience." />
-	<meta name="keywords" content="Ssegirinya Cedric, Cedo IT,Cedo developer,Cedo tech,Cedo ug" />
+	<meta name="keywords" content="Ssegirinya Cedric,Cedo developer,Cedo IT,Cedo tech,Cedo ug" />
     <title>Cedo Developer</title>
             </Head>
 
