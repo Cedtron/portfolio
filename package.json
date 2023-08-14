@@ -16,13 +16,14 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.0.1",
     "jquery": "^3.6.1",
-    "next": "13.0.6",
+    "next": "^13.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
     "react-loader-spinner": "^5.3.4",
     "react-multi-carousel": "^2.8.2",
-    "typed.js": "^2.0.12"
+    "swiper": "^10.1.0",
+    "typed.js": "^2.0.16"
   },
   "devDependencies": {
     "tailwindcss": "^3.2.4"

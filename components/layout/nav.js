@@ -14,7 +14,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 
 import Image from 'next/image'
-const pages = [<Link href="/">Home</Link>, <Link href="/about">About</Link>];
+const pages = [<Link href="/">Home</Link>, <Link href="/about">About</Link>, <Link href="/projects">Projects</Link>];
  const settings = [<Link  href="https://wa.me/256772728459">WhatsApp</Link>, <Link  href="tel:256772728459">Call</Link>];
 
 

@@ -52,7 +52,7 @@ export default function Client  () {
     <Carousel responsive={responsive} focusOnSelect={true} infinite={true} autoPlay={true}>    
      
       <div className="feature-1 d-md-flex cent">
-        <Link href="https://anfieldsafaris.com/"><div className="align-self-center">
+        {/* <Link href="https://anfieldsafaris.com/"><div className="align-self-center"> */}
         <Image
       // loader={myLoader}
       src="/images/anfield.png"
@@ -62,11 +62,11 @@ export default function Client  () {
     />
           <h3>Anfield Safari</h3>
        
-        </div></Link>
-      </div>
+        </div>
+     
 
       <div className="feature-1 d-md-flex cent">
-      <Link href="http://seagatefreightservices.com/">
+      {/* <Link href="http://seagatefreightservices.com/"> */}
           <div className="align-self-center">
         <Image
       // loader={myLoader}
@@ -77,7 +77,7 @@ export default function Client  () {
     />
           <h3>Seagate Freight Services</h3>
        
-        </div></Link>
+        </div>
       </div>
 
 
@@ -90,13 +90,13 @@ export default function Client  () {
       width={200}
       height={100}
     />
-          <h3><Link href="https://anfieldsafaris.com/">GateWay Minerals</Link></h3>
+          <h3><Link href="https://anfieldsafaris.com/">GateWay Minerals</h3>
        
         </div>
       </div> */}
 
       <div className="feature-1 d-md-flex cent">
-      <Link href="https://whitesandssafaris.com/">
+      {/* <Link href="https://whitesandssafaris.com/"> */}
          <div className="align-self-center">
         <Image
       // loader={myLoader}
@@ -107,11 +107,11 @@ export default function Client  () {
     />
           <h3>White Sands Safari</h3>
        
-        </div></Link>
+        </div>
       </div>
 
       <div className="feature-1 d-md-flex cent">
-      <Link href="http://gatewaymineral.com/">
+      {/* <Link href="http://gatewaymineral.com/"> */}
         <div className="align-self-center">
         <Image
       // loader={myLoader}
@@ -121,7 +121,7 @@ export default function Client  () {
       height={100}
     />
           <h3>Gateway Minerals</h3>
-        </div></Link>
+        </div>
       </div>
 
       {/* <div className="feature-1 d-md-flex cent">
@@ -136,12 +136,12 @@ export default function Client  () {
     />
           <h3>Claver Apartments</h3>
        
-        </div></Link>
+        </div>
       </div> */}
       
 
       <div className="feature-1 d-md-flex cent">
-      <Link href="http://adzakspiritual.com/">
+      {/* <Link href="http://adzakspiritual.com/"> */}
         <div className="align-self-center">
         <Image
       // loader={myLoader}
@@ -152,7 +152,7 @@ export default function Client  () {
     />
           <h3>Adzakspiritual</h3>
        
-        </div></Link>
+        </div>
       </div>
 
       </Carousel>

@@ -193,6 +193,29 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .spinner-border {
   color: #0D80D8; }
+  /* project css */
+  .project-card{text-align: center;}
+  
+.project-details{
+  display:none;
+   position: absolute;
+  top: 50%; 
+  left: 50%; 
+  margin:0 auto;
+  color:#0a1929;
+  transform: translate(-50%, -50%);
+  background-color: #ffffffcc; /* Background color for better readability */
+  padding: 10px;
+  border-radius: 5px;}
+  .project-details img { display: inline-block;}
+  .project-details img :hover .project-details {
+    display:block;
+  }
+
+  @media (max-width: 600px) {
+    .project-card {margin-bottom:4em;}
+    .project-card img{width:100%;height: 60vh;z-index:9999;position: relative;}
+  }
 
 /*PRELOADING------------ */
 #overlayer {
