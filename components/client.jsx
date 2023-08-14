@@ -39,7 +39,7 @@ export default function Client  () {
 <div className="container">
   <div className="row mb-5 justify-content-center">
     <div className="col-lg-6 text-center">
-      <h2 className="section-title text-center mb-3">Projects</h2>
+      <h2 className="section-title text-center mb-3">Clients</h2>
    
     </div>
   </div>

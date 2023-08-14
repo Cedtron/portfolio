@@ -103,7 +103,7 @@ export default function Proj() {
      onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
     />
-   <div className={`project-details ${isHovered ? 'visible' : ''}`}> played a pivotal role in designing and developing the Gateway Minerals website,
+   <div className={`project-details ${isHovered ? 'visible' : ''}`}>I played a pivotal role in designing and developing the Gateway Minerals website,
     contributing to their online visibility as a key player in the mining industry</div>
    <h3>Gateway minerals</h3>
         </div>
